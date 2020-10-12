@@ -44,7 +44,7 @@ your particular environment.
   Inserts comments into JPEG files.
   (migPutCommentInFile.sh requires a shell)
 
-#### grabexif-0.1.tar.gz
+#### grabexif
   Grabexif generates exif.inf files for use by mig (mig.wcht.de),
   from the html files found on the Casio QV-7000SX (and others?).
   (Grabexif requires a C compiler)
