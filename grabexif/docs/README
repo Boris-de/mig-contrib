@@ -1,0 +1,29 @@
+Grabexif generates exif.inf files for use by mig (mig.sf.net), from the html
+files found on the Casio QV-7000SX (and others?). Your html file from the
+camera should resemble the following:
+
+...
+<TABLE WIDTH="540" BORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD WIDTH="320" ALIGN="CENTER"><B>02828001.JPG</B></TD>
+<TD WIDTH="20"></TD>
+...
+<TD ALIGN="LEFT" VALIGN="TOP"><FONT SIZE="3" FACE="Times"><PRE> : 476Kbyte
+ : 1280x960pixels
+ : Super Fine
+ : Single shutter
+ : Programmed AE
+ : Multiple
+ : 1/500sec
+ : F5.6
+ : 0.00EV
+ : AF
+ : Auto (not fired)
+ : Auto
+ : -
+ : 2002/08/28 2:43 pm
+</PRE></FONT>
+...
+
+Using that info, grabexif should generate a logical file. A sample html file
+has been included for testing, as well as what a 'proper' exif.inf file should
+look like.
