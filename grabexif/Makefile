@@ -1,3 +1,4 @@
+CC = gcc
 applications = grabexif
 
 all: $(applications)
@@ -5,7 +6,7 @@ all: $(applications)
 CFLAGS=-Wall -g
 
 grabexif: src/grabexif.c
-	gcc $(CFLAGS) -o $@ $<
+	$(CC) $(CFLAGS) -o $@ $<
 
 install:
 	cp grabexif /usr/local/bin
